@@ -1,0 +1,5 @@
+# Use nginx
+FROM nginx
+
+# Copy the local HTML file
+COPY index.html 
